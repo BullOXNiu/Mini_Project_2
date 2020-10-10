@@ -1,0 +1,18 @@
+h1 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    font-size: 16px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tableauPlaceholder{
+    position: center;
+}
