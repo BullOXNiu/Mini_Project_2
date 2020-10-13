@@ -3,8 +3,12 @@ h1 {
     text-align: center;
 }
 
-h3 {
+h2 {
     text-align: center;
+}
+
+h3 {
+    text-align: left;
 }
 
 body {
@@ -12,6 +16,13 @@ body {
     margin-left: 25%;
     margin-right: 25%;
     background-color: #e6e6e6;
+    color: black;
+}
+
+.highlight {
+    background-color: #37003c;
+    color: white;
+    padding: 5%;
 }
 
 .tableauPlaceholder{
@@ -85,12 +96,12 @@ hr.rounded {
     text-decoration: none;
     display: block;
     color: white;
-    background-color: gray;
+    background-color: #ff2882;
 }
 #eight {
     font-style: italic;
     border-radius: 0%;
-    background-color: black;
+    background-color: #37003c;
     text-align: center;
     transition: transform 1s ease-in-out;
 }
@@ -110,7 +121,7 @@ hr.rounded {
     font-weight: bold;
     font-style: italic;
     text-align: center;
-    opacity: 50%;
+    opacity: 75%;
     height: fit-content;
     width: fit-content;
     padding-left: 5%;
@@ -119,14 +130,14 @@ hr.rounded {
 #eight:hover {
     cursor: no-drop;
     transform: rotate(720deg);
-    background-color: red;
+    background-color: #37003c;
 }
 #eight:hover + #eight-names {
     font-size: 50px;
     display: block;
 }
 .dropdown-content a:hover {
-    background-color: black;
+    background-color: #37003c;
     /* color: white; */
 }
 .dropdown:hover .dropdown-content {

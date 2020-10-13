@@ -42,56 +42,63 @@
             <a href="#four">Topic 4</a>
         </div>
     </div>
-    <a href="https://www.premierleague.com/" target="_blank">
-        <img id="top" src="logo.jpg">
-    </a>
-    <h1>
-        English Premier League Data Analysis
-    </h1>
-    <h3>
-        Introduction
-    </h3>
-    <hr class="rounded">
-    <p>
-        For this explanatory analysis we used the “English Premier League Results” dataset from Kaggle. The dataset contains data on 10,424 soccer games between the 20 english teams. We decided to focus on the three most recent seasons.The variables included are season, date,  home team, away team, number of goals scored both by the home team and the away team in the half time and the full time, fouls committed by both teams, corners for both teams, shots per team, yellow cards given to teams, red cards given to both teams, referee of the game, half time result, and full time result.
-    </p>
-    <h3>
-        Topic One: Team Ranking
-    </h3>
-    <bl>
-        <li>Which team(s) scored the most goals ?</li>
-        <li>How many times did teams win within a season?</li>        
-        <li>How many goals are scored on average every game?</li>
-        <li>How many goals are scored on average every game?</li>
-    </bl>
-    <br>
-    <h3>
-        Topic Two: Referee
-    </h3>
-    <bl>
-        <li>Does the referee favor the home team more than the away team?</li>
-        <li>Are referees more likely to give out yellow or red cards to the home or away team? </li>
-        <li>Which referee(s) lead to more wins for the home team? </li>
-    </bl>
-    <br>
-    <h3>
-        Topic Three: Team performance and Scoring Efficiency
-    </h3>
-    <bl>
-        <li>Does halftime lead translate into win?</li>
-        <li>Which team is most efficient at scoring?</li>
-        <li>Do teams score early or late?</li>
-    </bl>
-    <br>
-    <h3>Topic Four: Coronavirus outbreak</h3>
-    <bl>
-        <li>How did the covid outbreak affect EPL teams?</li>
-        <li>What did we see from teams coming out of an extended mid-season break?</li>
-        <li>Did the teams suffer or benefit from the covid break?</li>
-    </bl>
+
+    <div id="top">
+        <a href="https://www.premierleague.com/" target="_blank" style="display: inline-block; width: 20%;">
+            <img src="logo.png" >
+        </a>
+        <h1 style="display: inline-block; width: 75%;">
+            English Premier League Data Analysis
+        </h1>
+    </div>
 
     <hr class="rounded">
-    <h2 id="one">
+    <div class="highlight" id="top">
+        <h2>Introduction</h2>
+        <p>
+            For this explanatory analysis we used the “English Premier League Results” dataset from Kaggle. The dataset contains data on 10,424 soccer games between the 20 english teams. We decided to focus on the three most recent seasons.The variables included are season, date,  home team, away team, number of goals scored both by the home team and the away team in the half time and the full time, fouls committed by both teams, corners for both teams, shots per team, yellow cards given to teams, red cards given to both teams, referee of the game, half time result, and full time result.
+        </p>
+    </div>
+    <br>
+    <div>
+        <h3>
+            Topic One: Team Ranking
+        </h3>
+        <bl>
+            <li>Which team(s) scored the most goals?</li>
+            <li>How many times did teams win within a season?</li>        
+            <li>How many goals are scored on average every game?</li>
+            <li>How many goals are scored on average every game?</li>
+        </bl>
+        <br>
+        <h3>
+            Topic Two: Referee
+        </h3>
+        <bl>
+            <li>Does the referee favor the home team more than the away team?</li>
+            <li>Are referees more likely to give out yellow or red cards to the home or away team? </li>
+            <li>Which referee(s) lead to more wins for the home team? </li>
+        </bl>
+        <br>
+        <h3>
+            Topic Three: Team performance and Scoring Efficiency
+        </h3>
+        <bl>
+            <li>Does halftime lead translate into win?</li>
+            <li>Which team is most efficient at scoring?</li>
+            <li>Do teams score early or late?</li>
+        </bl>
+        <br>
+        <h3>Topic Four: Coronavirus outbreak</h3>
+        <bl>
+            <li>How did the covid outbreak affect EPL teams?</li>
+            <li>What did we see from teams coming out of an extended mid-season break?</li>
+            <li>Did the teams suffer or benefit from the covid break?</li>
+        </bl>
+    </div>
+
+    <hr class="rounded">
+    <h2 class="highlight" id="one">
         Topic One: Team Ranking
     </h2>
     <h3>
@@ -144,40 +151,42 @@
 
 
     <hr class="rounded">
-    <h2 id="two">
-        Topic Two: Referee
-
-    </h2>
-
-    <h3>
-        Does the referee favor the home team more than the away team?
-    </h3>
+    <div id="two">
+        <h2 class="highlight">
+            Topic Two: Referee
+        </h2>
     
-    <div class='tableauPlaceholder jeffery_container' id='viz1602406785576' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;wi&#47;winsreferee&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='winsreferee&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;wi&#47;winsreferee&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1602406785576');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>    
+        <h3>
+            Does the referee favor the home team more than the away team?
+        </h3>
+        
+        <div class='tableauPlaceholder jeffery_container' id='viz1602406785576' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;wi&#47;winsreferee&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='winsreferee&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;wi&#47;winsreferee&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1602406785576');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>    
+        
+        <br>
+        <h3>
+            Are referees more likely to give out yellow or red cards to the home or away team?
+        </h3>
     
-    <br>
-    <h3>
-        Are referees more likely to give out yellow or red cards to the home or away team?
-    </h3>
-
-    <div class='tableauPlaceholder jeffery_container' id='viz1602407050693' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ca&#47;cardsreferee&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='cardsreferee&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ca&#47;cardsreferee&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1602407050693');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-    <p>
-        <br><br/>
-        Since it is likely that other factors such as home crowd had an impact on the outcome of EPL matches, we then analyzed the number of yellow or red cards shown by individual referees. 
-        <br><br/>
-        In particular, we computed a custom metric by first subtracting the total numbers of cards shown divided by the total number of fouls given. Next, we take that number and divide it further based on the home and away teams. Finally, we measure the difference between home and away teams in terms of the likelihood of any given foul resulting in a yellow or red card. 
-
-        <br><br/>
-        We then decided to use this parameter and apply it to the previous graph, in the form of a color overlay. 
-
-        <br><br/>
-        Finally, we computed the likelihood of referees giving out red cards after a foul and applied it as a color overlay to this current graph. Unlike yellow cards,  red cards are usually far more game-changing in soccer, we added this layer of information to see whether some referees are more probable of producing a red card from fouls than others. 
-
-    </p>
+        <div class='tableauPlaceholder jeffery_container' id='viz1602407050693' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ca&#47;cardsreferee&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='cardsreferee&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ca&#47;cardsreferee&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1602407050693');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    
+        <p>
+            <br><br/>
+            Since it is likely that other factors such as home crowd had an impact on the outcome of EPL matches, we then analyzed the number of yellow or red cards shown by individual referees. 
+            <br><br/>
+            In particular, we computed a custom metric by first subtracting the total numbers of cards shown divided by the total number of fouls given. Next, we take that number and divide it further based on the home and away teams. Finally, we measure the difference between home and away teams in terms of the likelihood of any given foul resulting in a yellow or red card. 
+    
+            <br><br/>
+            We then decided to use this parameter and apply it to the previous graph, in the form of a color overlay. 
+    
+            <br><br/>
+            Finally, we computed the likelihood of referees giving out red cards after a foul and applied it as a color overlay to this current graph. Unlike yellow cards,  red cards are usually far more game-changing in soccer, we added this layer of information to see whether some referees are more probable of producing a red card from fouls than others. 
+    
+        </p>
+    </div>
+    
 
     <hr class="rounded">
-    <h2 id="three">
+    <h2 id="three" class="highlight">
         Topic Three: Team performance and Scoring Efficiency
     </h2>
 
@@ -199,7 +208,7 @@
 
 
     <hr class="rounded">
-    <h2 id="four">
+    <h2 id="four" class="highlight">
         Topic Four: Covid Break
     </h2>
     <p>
@@ -213,6 +222,8 @@
     <p>
         Mean values for total shots and total shots on target both went down after the break; while teams scored/conceded more goals in the first half than in the second half due to the break. From the trend lines, we also observed that after the initial “shock”, teams were able to bounce back fairly quickly. In terms of goal difference in the two halves, it remains unclear whether the slight increase in goals scored in the first half was due to the coronavirus break or other unexplained variables. Notably, teams tend to play youth players more often toward the end of a season, when the league table began to stabilize. 
     </p>
+
+    <hr class="rounded">
 
 </body>
 
