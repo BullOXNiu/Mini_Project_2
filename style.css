@@ -21,3 +21,9 @@ body {
     width: 70%;
     height: auto;
 }
+
+hr.rounded {
+    border-top: 3px solid #37003c;
+    /* border-top: 3px solid #ff2882; */
+    border-radius: 5px;
+}

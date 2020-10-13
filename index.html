@@ -25,66 +25,53 @@
   </head>
 
   <body>
+    <img src = "logo.jpg">
     <h1>
         English Premier League Data Analysis
     </h1>
     <h3>
         Introduction
     </h3>
+    <hr class="rounded">
     <p>
         For this explanatory analysis we used the “English Premier League Results” dataset from Kaggle. The dataset contains data on 10,424 soccer games between the 20 english teams. We decided to focus on the three most recent seasons.The variables included are season, date,  home team, away team, number of goals scored both by the home team and the away team in the half time and the full time, fouls committed by both teams, corners for both teams, shots per team, yellow cards given to teams, red cards given to both teams, referee of the game, half time result, and full time result.
     </p>
     <h3>
         Topic One: Team Ranking
     </h3>
-    <p>
-        Which team(s) scored the most goals ?
-        <br>
-        How many times did teams win within a season?
-        <br>
-        How many goals are scored on average every game?
-        <br>
-        How many goals are scored on average every game?
-        <br>
-    </p>
+    <bl>
+        <li>Which team(s) scored the most goals ?</li>
+        <li>How many times did teams win within a season?</li>        
+        <li>How many goals are scored on average every game?</li>
+        <li>How many goals are scored on average every game?</li>
+    </bl>
+    <br>
     <h3>
         Topic Two: Referee
     </h3>
-    <p>
-        Does the referee favor the home team more than the away team?
-        <br>
-        Are referees more likely to give out yellow or red cards to the home or away team? 
-        <br>
-        Which referee(s) lead to more wins for the home team? 
-        <br>
-
-    </p>
-    <!-- <h3>
-        Topic Three: Covid effect on teams’ performance
-    </h3>
-    <p>
-        Does the referee favor the home team more than the away team?
-        <br>
-        Are referees more likely to give out yellow or red cards to the home or away team? 
-        <br>
-        Which referee(s) lead to more wins for the home team? 
-        <br>
-
-    </p>
-    -->
+    <bl>
+        <li>Does the referee favor the home team more than the away team?</li>
+        <li>Are referees more likely to give out yellow or red cards to the home or away team? </li>
+        <li>Which referee(s) lead to more wins for the home team? </li>
+    </bl>
+    <br>
     <h3>
         Topic Three: Team performance and Scoring Efficiency
     </h3>
-    <p>
-        Does halftime lead translate into win?
-        <br>
-        Which team is most efficient at scoring?
-        <br>
-        Do teams score early or late?
-        <br>
+    <bl>
+        <li>Does halftime lead translate into win?</li>
+        <li>Which team is most efficient at scoring?</li>
+        <li>Do teams score early or late?</li>
+    </bl>
+    <br>
+    <h3>Topic Four: Coronavirus outbreak</h3>
+    <bl>
+        <li>How did the covid outbreak affect EPL teams?</li>
+        <li>What did we see from teams coming out of an extended mid-season break?</li>
+        <li>Did the teams suffer or benefit from the covid break?</li>
+    </bl>
 
-    </p>
-
+    <hr class="rounded">
     <h2>
         Topic One: Team Ranking
     </h2>
@@ -137,7 +124,7 @@
     </p>
 
 
-
+    <hr class="rounded">
     <h2>
         Topic Two: Referee
 
@@ -169,6 +156,7 @@
 
     </p>
 
+    <hr class="rounded">
     <h2>
         Topic Three: Team performance and Scoring Efficiency
     </h2>
@@ -189,11 +177,21 @@
     <br><br/>
     <div class='tableauPlaceholder' id='viz1602300715034' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;hometeamadvantagebyrefereebywins&#47;Dashboard5&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='hometeamadvantagebyrefereebywins&#47;Dashboard5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;hometeamadvantagebyrefereebywins&#47;Dashboard5&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1602300715034');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
+    <hr class="rounded">
     <h2>
         Topic Four: Covid Break
     </h2>
+    <p>
+        Due to the coronavirus outbreak, the 2019-20 EPL season got suspended from March 13 to Jun 17. As it is extremely rare to have such an extended break during mid-season, we were curious to see if this unexpected event has caused a drop in form to the teams competing. Based on results from the previous topic, we decided to analyze the difference between the number of goals scored in the first half and those in the second half. Additionally, we wanted to study the change in total shots and total shots on target, which serves as another metric on team performance. Perhaps a lack of competitions has led to either fewer shots on target or, equally likely, more goals conceded since players were allowed extra rest during a typically intense EPL season. 
+    </p>
     <div class='tableauPlaceholder jeffery_container' id='viz1602407288237' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;covidbreak&#47;Dashboard5&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='covidbreak&#47;Dashboard5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;covidbreak&#47;Dashboard5&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1602407288237');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
+    <br>
+    <p>
+        We first created a stacked bar chart to show the number of shots on target on top of total shots taken. Right beneath it is our goal difference chart, which showed the number of goals scored in each half of a match. We’ve also shaded the area after the coronavirus break has ended, and we can choose to focus on either part of the season using the coronavirus break as a natural separator. 
+    </p>
+    <p>
+        Mean values for total shots and total shots on target both went down after the break; while teams scored/conceded more goals in the first half than in the second half due to the break. From the trend lines, we also observed that after the initial “shock”, teams were able to bounce back fairly quickly. In terms of goal difference in the two halves, it remains unclear whether the slight increase in goals scored in the first half was due to the coronavirus break or other unexplained variables. Notably, teams tend to play youth players more often toward the end of a season, when the league table began to stabilize. 
+    </p>
 
 </body>
 
